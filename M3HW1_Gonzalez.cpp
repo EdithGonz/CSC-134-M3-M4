@@ -33,6 +33,7 @@ void task3() {
 
 void task4() {
     cout << "LMAO" << endl;
+    cout << "hello" << endl;
 }
 
 int main () {
