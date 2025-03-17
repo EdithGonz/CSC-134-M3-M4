@@ -1,18 +1,17 @@
 //CSC 134
-//M3HW1--Gold
+//M3HW1--bronze
 //Edith Gonzalez
-//03-10-25
+//03-16-25
 
-//QUESTION 1
+
 #include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
 
+//Question 1
 void task1() {
 
-    /* QUESTION 1 -- "chat box" */
-    cout << "Question 1" << endl;
     string response1, response2, response3;
     cout << "Welcome to Mcdonalds, what can I get you?" << endl;
     getline(cin, response1);
@@ -22,10 +21,9 @@ void task1() {
     getline(cin, response3);
 }
 
+//Question 2
 void task2() {
 
-    /* QUESTION 2 -- receipt calculator */
-    cout <<"Question 2" << endl;
     int mealPrice;          
     double orderType;
     double tax;
@@ -68,29 +66,14 @@ void task2() {
     cout << "Total Amount: $" << total << endl;
 
     
-    
-
 
 }
 
-void task3() {
-    cout << "World" << endl;
-}
-
-void task4() {
-    cout << "LMAO" << endl;
-    cout << "hello" << endl;
-}
 
 int main () {
-    task2();
     task1();
-    task3();
-    task4();
-
-
-
-
+    task2();
+    
   return 0; 
 
 } 
